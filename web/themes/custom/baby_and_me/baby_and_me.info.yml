@@ -1,0 +1,17 @@
+name: Baby and Me
+type: theme
+base theme: classy
+description: 'recreating Nestle theme for practice'
+core_version_requirement: ^8 || ^9
+libraries:
+  - baby_and_me/global-styling
+  # - baby_and_me/global-scripts
+  # - baby_and_me/fancy-box
+  # - baby_and_me/product-library
+libraries-override:
+  classy/base: false
+regions:
+  header_contacts: header_contacts
+  header_navigation: header_navigation
+  content: Content
+  footer: Footer

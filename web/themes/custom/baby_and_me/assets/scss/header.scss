@@ -1,0 +1,25 @@
+header {
+    margin-top: 0;
+    padding: 0.5rem 0;
+    
+    .region-header-contacts {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .region-header-navigation {
+        display: flex;
+        color: #26358C;
+
+        #block-header-navigation-3 {
+            .menu {
+                display: flex;
+
+                li {
+                    padding: 0 16px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+header {
+  margin-top: 0;
+  padding: 0.5rem 0;
+}
+
+header .region-header-contacts {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header .region-header-navigation {
+  display: flex;
+  color: #26358C;
+}
+
+header .region-header-navigation #block-header-navigation-3 .menu {
+  display: flex;
+}
+
+header .region-header-navigation #block-header-navigation-3 .menu li {
+  padding: 0 16px;
+}

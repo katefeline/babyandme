@@ -1,0 +1,70 @@
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished'
+  ]
+%}
+{% block paragraph %}
+
+  {% block content %}
+      {% if content.field_sponsored_by.0 is not empty %}
+            {% if "image on the right" in content.field_image_position.0 %}
+              <div{{ attributes.addClass(classes) }}>
+                <div class='content_text sponsored_content'>
+                  {{ content.field_article_category_tag }}
+                  {{ content.field_article_title }}
+                  {{ content.field_text }}
+                  {{ content.field_read_more }}
+                  {{ content.field_sponsored_by }}
+                </div>
+                <div class='content_image'>
+                  {{ content.field_image }}
+                </div>
+
+            {% elseif 'image on the left' in content.field_image_position.0 %}
+              <div{{ attributes.addClass(classes, 'reverse_content') }}>
+                <div class='content_image'>
+                  {{ content.field_image }}
+              </div>
+              <div class='content_text sponsored_content'>
+                  {{ content.field_article_category_tag }}
+                  {{ content.field_article_title }}
+                  {{ content.field_text }}
+                  {{ content.field_read_more }}
+                  {{ content.field_sponsored_by }}
+              </div>
+            {% endif %}
+      {% elseif content.field_sponsored_by.0 is empty %}
+            {% if "image on the right" in content.field_image_position.0 %}
+              <div{{ attributes.addClass(classes) }}>
+                <div class='content_text'>
+                  {{ content.field_article_category_tag }}
+                  {{ content.field_article_title }}
+                  {{ content.field_text }}
+                  {{ content.field_read_more }}
+                  {{ content.field_sponsored_by }}
+                </div>
+                <div class='content_image'>
+                  {{ content.field_image }}
+                </div>
+
+            {% elseif 'image on the left' in content.field_image_position.0 %}
+              <div{{ attributes.addClass(classes, 'reverse_content') }}>
+                <div class='content_image'>
+                  {{ content.field_image }}
+              </div>
+              <div class='content_text'>
+                  {{ content.field_article_category_tag }}
+                  {{ content.field_article_title }}
+                  {{ content.field_text }}
+                  {{ content.field_read_more }}
+                  {{ content.field_sponsored_by }}
+              </div>
+            {% endif %}
+      {% endif %}
+
+    {% endblock %}
+            </div>
+{% endblock paragraph %}

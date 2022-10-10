@@ -1,0 +1,29 @@
+@import 'zero', 'variables', 'mixins', 'header', 'purina';
+
+//font//
+// @font-face {
+//     font-family: 'Nunito';
+//     src: url("../fonts/Nunito-Regular.woff2") format("woff2");
+//     font-style: normal;
+//     font-weight: 400;
+// }
+
+* {
+    // font-family: "Nunito",Arial,Helvetica,sans-serif;
+    // color: $main_colour;
+    // font-family: 'Roboto', sans-serif;
+}
+
+body {
+    padding: 0 20px;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1440px;
+}

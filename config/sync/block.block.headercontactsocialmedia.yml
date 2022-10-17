@@ -1,0 +1,25 @@
+uuid: 781149e7-f76b-4e90-b1fa-5c058a943b3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.header-contact-social-media
+  module:
+    - system
+  theme:
+    - baby_and_me
+id: headercontactsocialmedia
+theme: baby_and_me
+region: header_contacts
+weight: 0
+provider: null
+plugin: 'system_menu_block:header-contact-social-media'
+settings:
+  id: 'system_menu_block:header-contact-social-media'
+  label: 'Header Contact Social Media'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

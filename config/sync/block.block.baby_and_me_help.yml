@@ -1,0 +1,22 @@
+uuid: 658c321a-c3ea-4b09-aa99-516c9e6b3463
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - baby_and_me
+_core:
+  default_config_hash: '-laWx8WA-ikiIEH3NJQ0hVbjqk3iEuBms91LB0B4IQU'
+id: baby_and_me_help
+theme: baby_and_me
+region: content
+weight: -1
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

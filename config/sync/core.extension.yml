@@ -1,12 +1,16 @@
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 module:
+  action: 0
   address: 0
   admin_toolbar: 0
+  admin_toolbar_links_access_filter: 0
   admin_toolbar_search: 0
   admin_toolbar_tools: 0
+  ajax_comments: 0
   automated_cron: 0
   backup_migrate: 0
+  basic_auth: 0
   big_pipe: 0
   block: 0
   block_class: 0
@@ -33,9 +37,11 @@ module:
   config: 0
   contact: 0
   contextual: 0
+  crop: 0
   ctools: 0
   datetime: 0
   dblog: 0
+  devel: 0
   dynamic_page_cache: 0
   easy_breadcrumb: 0
   editor: 0
@@ -43,22 +49,40 @@ module:
   entity_browser: 0
   entity_browser_entity_form: 0
   entity_reference_revisions: 0
-  entity_usage: 0
+  facets: 0
+  facets_range_widget: 0
+  facets_searchbox_widget: 0
   field: 0
+  field_layout: 0
   field_ui: 0
   file: 0
+  file_mdm: 0
+  file_mdm_exif: 0
+  file_mdm_font: 0
   filter: 0
+  fontyourface: 0
+  google_fonts_api: 0
   help: 0
   history: 0
   image: 0
+  image_effects: 0
+  image_focus: 0
+  image_lazy_load_test: 0
+  image_widget_crop: 0
   inline_entity_form: 0
+  jquery_ui: 0
+  jquery_ui_slider: 0
+  jquery_ui_touch_punch: 0
   language: 0
+  layout_discovery: 0
   link: 0
   media: 0
   media_library: 0
   menu_link_content: 0
   menu_ui: 0
+  metatag: 0
   module_filter: 0
+  mysql: 0
   node: 0
   node_type_custom_page: 0
   options: 0
@@ -70,8 +94,12 @@ module:
   rdf: 0
   responsive_image: 0
   search: 0
+  search_api: 0
+  search_api_db: 0
+  search_api_db_defaults: 0
   shortcut: 0
   state_machine: 0
+  statistics: 0
   system: 0
   taxonomy: 0
   text: 0
@@ -85,6 +113,7 @@ module:
   webform: 0
   widget_engine: 0
   widget_engine_entity_form: 0
+  forum: 1
   content_translation: 10
   views: 10
   paragraphs: 11
@@ -95,4 +124,5 @@ theme:
   stable: 0
   classy: 0
   hd_theme: 0
+  baby_and_me: 0
 profile: standard

@@ -7,9 +7,16 @@ dependencies:
     - core.entity_view_mode.commerce_product_variation.summary
   module:
     - commerce_price
+    - field_layout
+    - layout_discovery
   enforced:
     module:
       - commerce_checkout
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 _core:
   default_config_hash: jmDRQILFIWJUS3jS-qLF10aGc1IXnvFEBizwJl94FfU
 id: commerce_product_variation.default.summary

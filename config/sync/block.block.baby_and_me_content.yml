@@ -1,0 +1,22 @@
+uuid: 506afe1e-dc1f-47d4-815e-c69b2aef61b7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - baby_and_me
+_core:
+  default_config_hash: kigu8pTxXt1qGR2NJ5HHdC4G2G1wsDrIjLPKBT5wUBc
+id: baby_and_me_content
+theme: baby_and_me
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

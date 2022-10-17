@@ -1,0 +1,20 @@
+uuid: 17e0b5d6-2f97-4995-8e3f-c737ed6b6706
+langcode: en
+status: false
+dependencies:
+  theme:
+    - baby_and_me
+_core:
+  default_config_hash: XRdb8LpbArVA6CpuuEZxzi50JIdjsJaCCZ5o3fH0Blk
+id: baby_and_me_local_actions
+theme: baby_and_me
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

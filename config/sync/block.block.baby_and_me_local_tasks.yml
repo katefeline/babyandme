@@ -1,0 +1,22 @@
+uuid: 3eaa2401-b29d-41b9-a0f7-51c113727514
+langcode: en
+status: false
+dependencies:
+  theme:
+    - baby_and_me
+_core:
+  default_config_hash: Qf2BoIzd9py5AYXZj8fJzCYDyVk1-AWXcu-AqQeDZKA
+id: baby_and_me_local_tasks
+theme: baby_and_me
+region: content
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

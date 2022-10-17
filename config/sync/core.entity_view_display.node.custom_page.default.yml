@@ -7,8 +7,15 @@ dependencies:
     - field.field.node.custom_page.field_widgets
     - node.type.custom_page
   module:
+    - field_layout
+    - layout_discovery
     - text
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 _core:
   default_config_hash: 9wNe35uzY3VT0bO4m473R8kbOYs3RAgmRuC6HlZGvYM
 id: node.custom_page.default

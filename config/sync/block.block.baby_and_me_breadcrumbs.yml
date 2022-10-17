@@ -1,0 +1,22 @@
+uuid: a8489f20-4464-412e-b8d9-a86698787cc7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - baby_and_me
+_core:
+  default_config_hash: y0bXRvKYQQKkf_RVxA3aOPGpIfKKsDOzzrWYCgjxJ9Y
+id: baby_and_me_breadcrumbs
+theme: baby_and_me
+region: content
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

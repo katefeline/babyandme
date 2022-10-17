@@ -1,0 +1,25 @@
+uuid: f2904cc1-5a84-48f1-ba1f-864e3c26a963
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.header-navigation-menu
+  module:
+    - system
+  theme:
+    - baby_and_me
+id: headernavigationmenu
+theme: baby_and_me
+region: header_navigation
+weight: 0
+provider: null
+plugin: 'system_menu_block:header-navigation-menu'
+settings:
+  id: 'system_menu_block:header-navigation-menu'
+  label: 'Header Navigation Menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

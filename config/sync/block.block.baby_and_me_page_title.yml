@@ -1,0 +1,20 @@
+uuid: 495c4f57-b347-422f-b52e-bc70d91d5be8
+langcode: en
+status: false
+dependencies:
+  theme:
+    - baby_and_me
+_core:
+  default_config_hash: ItFhhiUOoeR7oIq73ZaCV7PAYrOwXZ-9fazMzF5DJXM
+id: baby_and_me_page_title
+theme: baby_and_me
+region: content
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

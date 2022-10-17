@@ -8,7 +8,14 @@ dependencies:
     - image.style.thumbnail
     - media.type.document
   module:
+    - field_layout
     - image
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 _core:
   default_config_hash: I5UTk5ubfYtD3-bkArNVwSyFASGkM7D3OATxRwID9I4
 id: media.document.media_library
@@ -22,6 +29,8 @@ content:
     settings:
       image_link: ''
       image_style: thumbnail
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
     weight: 0
     region: content

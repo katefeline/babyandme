@@ -7,8 +7,15 @@ dependencies:
   module:
     - commerce_order
     - commerce_price
+    - field_layout
+    - layout_discovery
     - state_machine
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 _core:
   default_config_hash: oDY6H1FUOtmnFKB4ETCkhuNLSyB82kieTwJpeA8uSH8
 id: commerce_order.default.default

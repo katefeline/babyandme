@@ -1,0 +1,23 @@
+uuid: 4c1b2505-df86-44a6-b106-f7554903d622
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - baby_and_me
+_core:
+  default_config_hash: jQ-C8l3dJPqYCGST1e-kSjR14PDP4wq-iFbp8dMFcRo
+id: baby_and_me_search
+theme: baby_and_me
+region: header_contacts
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: node_search
+visibility: {  }

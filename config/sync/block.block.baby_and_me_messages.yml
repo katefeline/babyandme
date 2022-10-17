@@ -1,0 +1,22 @@
+uuid: ec240c89-1a7b-426a-862b-7aff542f3066
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - baby_and_me
+_core:
+  default_config_hash: KC12e0aosUnBBs5bd374JVcQjJaFNOSIHzu0dUGf22o
+id: baby_and_me_messages
+theme: baby_and_me
+region: header_contacts
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

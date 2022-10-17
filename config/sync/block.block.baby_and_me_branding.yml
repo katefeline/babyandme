@@ -1,0 +1,25 @@
+uuid: 2fea1b5f-53b1-4b8c-8d4f-cefd5c2126eb
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - baby_and_me
+_core:
+  default_config_hash: d-0emr1mEq7sFKDu5RHUJckvNk62hvIZdRwPEfnJyGg
+id: baby_and_me_branding
+theme: baby_and_me
+region: header_navigation
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: true
+visibility: {  }

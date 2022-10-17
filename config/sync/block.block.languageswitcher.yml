@@ -1,0 +1,20 @@
+uuid: 2663dc50-10e9-4661-a8ed-bb6f46c7881b
+langcode: en
+status: false
+dependencies:
+  module:
+    - language
+  theme:
+    - baby_and_me
+id: languageswitcher
+theme: baby_and_me
+region: header_contacts
+weight: 0
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  label_display: '0'
+  provider: language
+visibility: {  }

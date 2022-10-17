@@ -1,4 +1,4 @@
-uuid: f39e31c3-64ff-49a0-a98a-184dcbb5761a
+uuid: a82de683-af70-484c-80af-113c2bc712b1
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,6 @@ dependencies:
     - commerce_order.commerce_order_item_type.default
     - core.entity_form_mode.commerce_order_item.add_to_cart
   module:
-    - commerce_order
     - commerce_product
   enforced:
     module:
@@ -25,17 +24,10 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  quantity:
-    type: commerce_quantity
-    weight: 1
-    region: content
-    settings:
-      placeholder: ''
-      step: '1'
-    third_party_settings: {  }
 hidden:
   adjustments: true
   created: true
+  quantity: true
   status: true
   uid: true
   unit_price: true

@@ -1,4 +1,4 @@
-uuid: ed28da7a-ab9d-46e7-8b6c-c511589a5e1c
+uuid: ed333b65-c900-4344-a8a1-efef544f702b
 langcode: en
 status: true
 dependencies:
@@ -32,4 +32,3 @@ hidden:
   commerce_remote_id: true
   customer_profiles: true
   langcode: true
-  search_api_excerpt: true

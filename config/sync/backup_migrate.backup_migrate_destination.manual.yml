@@ -1,0 +1,9 @@
+uuid: 47c698b8-5ec4-4428-b327-9e4fe49f33a3
+langcode: en
+status: true
+dependencies: {  }
+id: manual
+label: manual
+type: Directory
+config:
+  directory: 'http://hellodrupal.docker.localhost/sites/default/files'

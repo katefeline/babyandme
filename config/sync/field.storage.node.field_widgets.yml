@@ -1,10 +1,12 @@
-uuid: fba78bc2-c20c-4d4e-b234-142576b2a53a
+uuid: 6f88b62c-3a2e-4e29-9778-b3a48ba3bdb0
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - widget_engine
+_core:
+  default_config_hash: ij9RaYgkU1-8DuiZP0S6gw-7W3NytXPWRzBAtaZ7RsM
 id: node.field_widgets
 field_name: field_widgets
 entity_type: node

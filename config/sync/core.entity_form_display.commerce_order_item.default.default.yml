@@ -1,11 +1,11 @@
-uuid: 800d9a11-1a4e-4e5e-b843-2ccec89b8d47
+uuid: 2331bdef-2bd5-4dfa-800e-7da525566e50
 langcode: en
 status: true
 dependencies:
   config:
     - commerce_order.commerce_order_item_type.default
   module:
-    - commerce_price
+    - commerce_order
   enforced:
     module:
       - commerce_product
@@ -26,15 +26,23 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  unit_price:
-    type: commerce_price_default
+  quantity:
+    type: commerce_quantity
     weight: 1
     region: content
-    settings: {  }
+    settings:
+      placeholder: ''
+      step: '1'
+    third_party_settings: {  }
+  unit_price:
+    type: commerce_unit_price
+    weight: 2
+    region: content
+    settings:
+      require_confirmation: true
     third_party_settings: {  }
 hidden:
   adjustments: true
   created: true
-  quantity: true
   status: true
   uid: true

@@ -1,4 +1,4 @@
-uuid: 1f9c9fa8-16cd-443c-8efe-125e0c79b52d
+uuid: 30c35783-e701-4be0-949b-862e8f88997c
 langcode: en
 status: true
 dependencies:
@@ -12,10 +12,10 @@ dependencies:
     - commerce_product
     - contact
     - filter
+    - media
     - search
     - shortcut
     - system
-    - widget_engine
 _core:
   default_config_hash: I44QAB4es39lNzMQWiJLq2dfjX7VRSOzT_5KzAcUq_M
 id: authenticated
@@ -34,5 +34,5 @@ permissions:
   - 'skip comment approval'
   - 'use text format basic_html'
   - 'view commerce_product'
+  - 'view media'
   - 'view own commerce_order'
-  - 'view published widget entities'

@@ -1,4 +1,4 @@
-uuid: f3c02f1e-a640-4c7a-881f-3766613d0a53
+uuid: 279fad7a-2360-468a-9975-bec17fad61d0
 langcode: en
 status: true
 dependencies:
@@ -10,9 +10,9 @@ dependencies:
     - commerce_product
     - contact
     - filter
+    - media
     - search
     - system
-    - widget_engine
 _core:
   default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
 id: anonymous
@@ -27,4 +27,4 @@ permissions:
   - 'search content'
   - 'use text format restricted_html'
   - 'view commerce_product'
-  - 'view published widget entities'
+  - 'view media'

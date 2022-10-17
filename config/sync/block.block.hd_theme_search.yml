@@ -1,0 +1,23 @@
+uuid: 5ce8ca9c-3c19-457a-be55-ff35dc56a2aa
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - hd_theme
+_core:
+  default_config_hash: jQ-C8l3dJPqYCGST1e-kSjR14PDP4wq-iFbp8dMFcRo
+id: hd_theme_search
+theme: hd_theme
+region: header
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: node_search
+visibility: {  }

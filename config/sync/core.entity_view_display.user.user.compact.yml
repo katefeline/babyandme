@@ -1,4 +1,4 @@
-uuid: 0ca3159e-f56b-49ce-83b3-a11f5fec1676
+uuid: 934e3a6c-034f-4eba-badc-4968fc4a8f8b
 langcode: en
 status: true
 dependencies:
@@ -31,4 +31,3 @@ hidden:
   customer_profiles: true
   langcode: true
   member_for: true
-  search_api_excerpt: true

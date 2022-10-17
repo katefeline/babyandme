@@ -1,4 +1,4 @@
-uuid: ddc62606-5a99-4a0c-97e6-8f52918b558e
+uuid: f9bc92f2-7e16-46d9-872b-c030c79e3708
 langcode: en
 status: true
 dependencies:
@@ -38,6 +38,5 @@ content:
 hidden:
   langcode: true
   price: true
-  search_api_excerpt: true
   sku: true
   title: true

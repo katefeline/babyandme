@@ -1,0 +1,25 @@
+uuid: 3dde7a4a-3e55-4a78-b4f2-71ea63089c1b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4423db74-3f84-4b8b-be04-9a82171b3a40'
+  module:
+    - block_content
+  theme:
+    - baby_and_me
+id: socialmedialinks
+theme: baby_and_me
+region: header_contacts
+weight: -8
+provider: null
+plugin: 'block_content:4423db74-3f84-4b8b-be04-9a82171b3a40'
+settings:
+  id: 'block_content:4423db74-3f84-4b8b-be04-9a82171b3a40'
+  label: 'Social Media Links'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

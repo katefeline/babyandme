@@ -1,17 +1,17 @@
 @import 'zero', 'variables', 'mixins', 'header', 'purina';
 
 //font//
-// @font-face {
-//     font-family: 'Nunito';
-//     src: url("../fonts/Nunito-Regular.woff2") format("woff2");
-//     font-style: normal;
-//     font-weight: 400;
-// }
+ @font-face {
+     font-family: 'Nunito';
+     src: url("../fonts/Nunito-Regular.woff2") format("woff2");
+     font-style: normal;
+     font-weight: 400;
+ }
 
 * {
-    // font-family: "Nunito",Arial,Helvetica,sans-serif;
-    // color: $main_colour;
-    // font-family: 'Roboto', sans-serif;
+     font-family: "Nunito",Arial,Helvetica,sans-serif;
+     color: $main_colour;
+     font-family: 'Roboto', sans-serif;
 }
 
 body {

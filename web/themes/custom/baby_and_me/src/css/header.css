@@ -9,15 +9,19 @@ header .region-header-contacts {
   align-items: center;
 }
 
+header .region-header-contacts #block-headercontactsocialmedia .menu {
+  display: flex;
+}
+
 header .region-header-navigation {
   display: flex;
   color: #26358C;
 }
 
-header .region-header-navigation #block-header-navigation-3 .menu {
+header .region-header-navigation #block-headernavigationmenu .menu {
   display: flex;
 }
 
-header .region-header-navigation #block-header-navigation-3 .menu li {
+header .region-header-navigation #block-headernavigationmenu .menu li {
   padding: 0 16px;
 }

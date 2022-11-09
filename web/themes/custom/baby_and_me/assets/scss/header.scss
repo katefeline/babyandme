@@ -1,18 +1,24 @@
 header {
     margin-top: 0;
     padding: 0.5rem 0;
-    
+
     .region-header-contacts {
         display: flex;
         justify-content: flex-end;
         align-items: center;
+
+      #block-headercontactsocialmedia {
+        .menu {
+          display: flex;
+        }
+      }
     }
 
     .region-header-navigation {
         display: flex;
         color: #26358C;
 
-        #block-header-navigation-3 {
+        #block-headernavigationmenu {
             .menu {
                 display: flex;
 

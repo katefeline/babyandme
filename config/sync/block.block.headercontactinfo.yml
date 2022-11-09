@@ -1,0 +1,25 @@
+uuid: 92097b93-b001-4796-a659-40ff1ca8201e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1e11592d-a475-4999-b9d9-ad23ebd11858'
+  module:
+    - block_content
+  theme:
+    - baby_and_me
+id: headercontactinfo
+theme: baby_and_me
+region: header_contacts
+weight: -7
+provider: null
+plugin: 'block_content:1e11592d-a475-4999-b9d9-ad23ebd11858'
+settings:
+  id: 'block_content:1e11592d-a475-4999-b9d9-ad23ebd11858'
+  label: 'Header Contact Info'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

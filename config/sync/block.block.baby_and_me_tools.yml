@@ -13,7 +13,7 @@ _core:
 id: baby_and_me_tools
 theme: baby_and_me
 region: header_contacts
-weight: -4
+weight: -3
 provider: null
 plugin: 'system_menu_block:tools'
 settings:

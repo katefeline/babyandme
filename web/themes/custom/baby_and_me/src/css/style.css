@@ -93,16 +93,20 @@ header .region-header-contacts {
   align-items: center;
 }
 
+header .region-header-contacts #block-headercontactsocialmedia .menu {
+  display: flex;
+}
+
 header .region-header-navigation {
   display: flex;
   color: #26358C;
 }
 
-header .region-header-navigation #block-header-navigation-3 .menu {
+header .region-header-navigation #block-headernavigationmenu .menu {
   display: flex;
 }
 
-header .region-header-navigation #block-header-navigation-3 .menu li {
+header .region-header-navigation #block-headernavigationmenu .menu li {
   padding: 0 16px;
 }
 
@@ -240,6 +244,19 @@ header .region-header-navigation #block-header-navigation-3 .menu li {
   line-height: 35px;
   color: #3A3533;
   padding: 16px 0 32px 165px;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+
+* {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  color: #050b4c;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
